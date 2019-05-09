@@ -1,0 +1,54 @@
+h1.main2 { color: white;
+		 font-size: 40px;
+	 	 text-shadow: 6px 6px 5px #fc8080;
+	 	 text-indent: 40px; 
+	 	 text-align: center;}
+
+.adj2 { color: white;
+		font-size: 26px;
+	 	 text-shadow: 6px 6px 5px #ffd1d1;
+	 	 text-align: left;
+	 	 padding: 85px; }
+
+#p02 { background-image: url(../img/p02.jpg);
+		float: right; 
+		width:300px;
+		height:400px;
+		background-size: cover;
+		border-radius: 20px;
+		margin: auto 40px;
+		display: inline-block;}
+
+.tooltip2 {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+
+}
+
+.tooltip2 .tooltiptext2 {
+  visibility: hidden;
+  width: 120px;
+  background-color: rgba(255,128,191,0.6);
+  color: #fff;
+  font-size: 15px;
+  text-align: center;
+  border-radius: 6px;
+  padding: 10px 10px;
+  left: 60px;
+  position: relative;
+  z-index: 1;
+}
+
+.tooltip2:hover .tooltiptext2 {
+  visibility: visible;
+}
+
+#p02:hover
+	    {
+		width: 350px;
+		height: 500px;
+		transition-duration: 2s;
+		transition-timing-function: ease;
+		cursor: pointer;
+	    }
